@@ -1,0 +1,15 @@
+$font-stack: Helvetica, sans-serif;
+$primary-color: blue;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+@mixin box-shadow($color: red) {
+  box-shadow: 0 0 5px $color;
+}
+    
+.box {
+  @include box-shadow($primary-color);
+}

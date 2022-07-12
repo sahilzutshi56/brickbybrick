@@ -1,0 +1,10 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: blue;
+}
+
+.box {
+  box-shadow: 0 0 5px blue;
+}
+
+/*# sourceMappingURL=test.css.map */
