@@ -1,0 +1,10 @@
+body {
+  border: 1px;
+}
+@media (min-width: 1200px) {
+  body {
+    padding: 20px;
+  }
+}
+
+/*# sourceMappingURL=layout2.css.map */
